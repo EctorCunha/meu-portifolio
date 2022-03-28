@@ -45,7 +45,6 @@
         
 
         .card{
-            // background-color: #23253A;
             width: 250px;
             height: 200px;
             display: flex;
@@ -55,7 +54,6 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 12px;
-
             
             img{
                 width: 250px;
@@ -84,6 +82,12 @@
         width: 99vw;
         border: none;
         border-top: 1px solid #f2f4ff54;
+    }
+}
+
+@media(max-width: 1029px){
+    .projetos .card{
+        margin-bottom: 25px;
     }
 }
 
