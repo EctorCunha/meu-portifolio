@@ -45,6 +45,24 @@
     }
   }
 
+  @media(max-width: 1200px){
+    .line{
+      font-size: 4.3vw;
+    }
+  }
+
+  @media(max-width: 700px){
+    .line{
+      font-size: 4vw;
+    }
+  }
+
+  @media(max-width: 500px){
+    .line{
+      font-size: 4vw;
+    }
+  }
+
   @media(max-width: 375px){
     .line{
       font-size: 4vw;

@@ -1,6 +1,6 @@
 header{
-     background-color: #1F2136;
-     color: #F2F4FF;
+     background-color: var(--primaria);
+     color: var(--terciaria);
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -23,12 +23,12 @@ header{
      a{ 
          position: relative;
          text-decoration: none;
-         color: #F2F4FF;
+         color: var(--terciaria);
 
         ::after{
             content: "";
             position: absolute;
-            background-color: #7B2643;
+            background-color: var(--secundaria);
             height: 3px;
             width: 0;
             left: 0;
@@ -60,6 +60,20 @@ header{
     }
     header .logo{
         margin-left: 25px;
+    }
+}
+
+@media (max-width: 414px){
+    header {
+        ul{
+        margin-right: 20px;
+        gap: 20px;
+        }
+
+        .logo{
+            margin-left: 20px;
+            width: 10vw;
+        }
     }
 }
 

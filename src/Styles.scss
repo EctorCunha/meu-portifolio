@@ -6,6 +6,12 @@
     font-family: 'Red Hat Mono', monospace;
 }
 
+:root{
+    --primaria: #1F2136;
+    --secundaria: #d42029;
+    --terciaria: #F2F4FF;
+}
+
 body{
     background:linear-gradient(90deg, #353a55, #23253A, #1c1e33);
     background-size: 300%, 300%;

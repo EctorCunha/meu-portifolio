@@ -5,9 +5,8 @@
     text-align: center;
     flex-direction: column;
     // background-color: #23253A;
-    color: #F2F4FF;
+    color: var(--terciaria);
     min-width: 375px;
-    // width: 100vw;
 
 
     .titulo-sobre{
@@ -18,11 +17,11 @@
         .info-sobre{
             margin-bottom: 15px;
             font-size: 2.5rem;
-            color: #7B2643;
+            color: var(--secundaria);
         }
 
         .traco{
-            color: #7B2643;
+            color: var(--secundaria);
         }
         
     }
@@ -44,7 +43,7 @@
                 margin-bottom: 10px;
                 font-size: 2rem;
                 text-align: left;
-                color: #7B2643;
+                color: var(--secundaria);
             }
         }
 
@@ -79,7 +78,7 @@
             .contato{
                 margin-top: 20px;
                 margin-bottom: 7px;
-                color: #7B2643;
+                color: var(--secundaria);
             }
 
             .contato2{
@@ -89,9 +88,9 @@
     }
 
     .arrow{
-        background-color: #23253A;
-        color: white;
-        border: 1px solid #7B2643;
+        background-color: var(--secundaria);
+        color: var(--terciaria);
+        border: 1px solid var(--secundaria);
         border-radius: 50%;
     }
 
@@ -103,7 +102,7 @@
     }
 
     .copy{
-        color: #F2F4FF;
+        color: var(--terciaria);
         margin: 20px 0 20px -1350px;
     }
 }

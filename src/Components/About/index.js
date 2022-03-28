@@ -21,10 +21,8 @@ export default function Sobre(){
 
                 <div className='sobre-info' >
                     <h2 className='subinfo-sobre'>Oi, povo!</h2>
-                    <p className='texto' >Esse projeto consiste na junção do conhecimento adquirito a cerca de 8 meses. Através desse projeto, consegui desenvolver as habilidades técnicas são utilizadas no mercado de trabalho.</p>
+                    <p className='texto' >Esse projeto consiste na junção do conhecimento adquirito a cerca de 8 meses. Através desse projeto, consegui desenvolver as habilidades técnicas que são utilizadas no mercado de trabalho.</p>
                     <p className='texto'>Neste portifólio contém tecnologias e habilidades como ReactJs com o uso de algumas bibliotecas como Material UI, AOS - Animate on Scroll Library, Back to top e Sass na estilização.</p>
-
-                   
 
                 </div>
 
