@@ -1,0 +1,151 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #F2F4FF;
+    width: 100vw;
+    
+    min-width: 375px;
+
+    .chamada{
+        width: 30%;
+        margin-top: 70px;
+
+        .icone{
+            margin-right: 10px;
+            border-radius: 50%;
+            color: #F2F4FF;
+            border: 3px solid #7B2643;
+            cursor: pointer;
+        }
+
+        .face{
+            border-radius: 50%;
+            background-color: rgb(50, 50, 156);
+        }
+
+        .meu-nome{
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+        
+        button{
+            margin-right: 30px;
+            padding: 10px;
+            width: 125px;
+            border-radius: 20px;
+            border: 2px solid #7B2643;
+            background-color: transparent;
+            color: #F2F4FF;
+            font-size: 1rem;
+        }
+
+        .youtube{
+            color: #7B2643;
+        }
+       
+    }
+    
+    img{
+        width: 380px;
+        height: 380px;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+
+    }
+}
+
+@media (max-width: 1266px){
+    main>img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
+@media (max-width: 884px){
+    main>img{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+@media (max-width: 703px){
+    main .chamada 
+        .meu-nome{
+            width: 40vw;
+        }
+        p{
+            width: 40vw;
+        }
+}
+
+@media (max-width: 668px){
+    main{
+       flex-direction: column-reverse;
+
+       img{
+           margin: 40px 0 0px;
+       }
+
+       .chamada{
+           margin: -20px 0 60px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           width: 75%;
+
+           .meu-nome{
+               width: 75%;
+           }
+           p{
+            width: 75%;
+           }
+       }
+    }
+}
+
+@media (max-width: 466px){
+    .meu-nome{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+
+@media (max-width:375px){
+    main{
+        img{
+            width: 200px;
+            height: 200px;
+            margin: 30px 0px;
+        }
+        .chamada{
+            width: 75%;
+            text-align: center;
+            margin-top: -80px;
+            margin-bottom: 60px;
+
+            .meu-nome{
+                margin: 5px 0px;
+                width: 75vw;
+            }
+            p{
+                width: 75vw;
+            }
+            
+        }
+        
+    }
+}

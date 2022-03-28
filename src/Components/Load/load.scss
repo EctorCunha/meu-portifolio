@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #23253A;
+  }
+  .line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: #F2F4FF;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .typing-animation {
+    animation: blinkCursor .7s steps(40) infinite normal,
+      typing 4s steps(44) 1s both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20em;
+    }
+  }
+
+  @keyframes blinkCursor {
+    from {
+      border-right-color: white;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  @media(max-width: 375px){
+    .line{
+      font-size: 4vw;
+    }
+  }
