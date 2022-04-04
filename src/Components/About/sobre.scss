@@ -211,6 +211,12 @@
     }
 }
 
+@media (max-width: 605px){
+    .sobre>.copy{
+        margin: 20px 0 20px -360px;
+    }
+}
+
 @media (max-width: 537px){
     .sobre{
         
@@ -260,13 +266,20 @@
     .sobre{
         .copy{
             width: 50%;
+            margin: 20px 0 20px -250px;
         }
+    }
+}
+
+@media (max-width: 458px){
+    .sobre>.copy{
+        margin: 20px 0 20px -200px;
     }
 }
 
 @media (max-width: 409px){
     .sobre>.copy{
-        margin: 20px 0 20px -200px;
+        margin: 20px 0 20px -180px;
     }
 }
 
