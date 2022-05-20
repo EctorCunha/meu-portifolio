@@ -1,4 +1,4 @@
-import sobre from './sobre.scss';
+import './sobre.scss';
 import foto from '../../Assets/esportivo-cortado.png';
 import { BsDashLg, BsFillArrowUpCircleFill } from "react-icons/bs";
 import BackToTop from "react-back-to-top-button";
@@ -17,7 +17,7 @@ export default function Sobre(){
 
             <div className='subtitulo-sobre'>  
 
-                <img src={foto}/>
+                <img src={foto} alt='foto'/>
 
                 <div className='sobre-info' >
                     <h2 className='subinfo-sobre'>Oi, povo!</h2>

@@ -1,2 +1,2 @@
-import load from './load.scss';
+import './load.scss';
  

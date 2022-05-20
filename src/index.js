@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Load from './Components/Load';
+import './Components/Load';
 
 setTimeout(() => {
 ReactDOM.render(

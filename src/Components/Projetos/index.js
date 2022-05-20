@@ -1,10 +1,10 @@
-import projetos from './projetos.scss';
+import './projetos.scss';
 import { BsDashLg } from "react-icons/bs";
 import nlwtogether from "../../Assets/print-nlwtog.png"
 import devfinances from "../../Assets/devfinances.png"
 import wisegoat from "../../Assets/wisegoat.png"
 import codar from "../../Assets/codar.png"
-import amazinggraph from "../../Assets/amazingGraph.png"
+import gameNight from "../../Assets/gameNight.png"
 import relogio from "../../Assets/relogio.png"
 
 
@@ -39,10 +39,10 @@ const data = [
     },
     {
         id: "5",
-        projeto: "AmazingGraph", 
-        descricao: "Create amazing graphics",
-        link: "https://ectorcunha.github.io/Amazing-Graph/",
-        image: amazinggraph
+        projeto: "GameNight", 
+        descricao: "E-commerce de jogos de tabuleiro",
+        link: "https://game-night-ecommerce-frontend.vercel.app/",
+        image: gameNight
     },
     {
         id: "6",
@@ -68,9 +68,9 @@ export default function Projetos(){
          <div className='cards'>
              <ul>
                 {data.map(({image, projeto, descricao, link})=>(
-                     <a href={link} target="_blank">
+                     <a /* key={data.id} */ href={link} target="_blank" rel='noreferrer'>
                      <li className='card' >
-                     <img src={image}/>
+                     <img src={image} alt='foto'/>
                      <h3>{projeto}</h3>
                      <p>{descricao}</p>
                 </li>
