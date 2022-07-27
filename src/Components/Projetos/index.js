@@ -5,7 +5,7 @@ import devfinances from "../../Assets/devfinances.png"
 import wisegoat from "../../Assets/wisegoat.png"
 import codar from "../../Assets/codar.png"
 import gameNight from "../../Assets/gameNight.png"
-import relogio from "../../Assets/relogio.png"
+import casinha from "../../Assets/casinha.png"
 
 
 const data = [
@@ -46,10 +46,10 @@ const data = [
     },
     {
         id: "6",
-        projeto: "Relógio",
-        descricao: "Relógio Analógico", 
-        link: "https://ectorcunha.github.io/Rel-gio/",
-        image: relogio
+        projeto: "Casinha",
+        descricao: "E-commerce de Tiny House", 
+        link: "https://www.ctdcasinha.com/",
+        image: casinha
     },
     
 ]
@@ -73,8 +73,8 @@ export default function Projetos(){
                      <img src={image} alt='foto'/>
                      <h3>{projeto}</h3>
                      <p>{descricao}</p>
-                </li>
-                </a>
+                     </li>
+                     </a>
                 ))}
                 
             </ul>
