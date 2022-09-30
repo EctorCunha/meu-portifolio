@@ -47,8 +47,8 @@ const data = [
     {
         id: "6",
         projeto: "Casinha",
-        descricao: "E-commerce de Tiny House", 
-        link: "https://www.ctdcasinha.com/",
+        descricao: "E-commerce de Tiny House (fora do ar)", 
+        link: "https://pdrmenezes.notion.site/CASINHA-documenta-o-714eedbc9d53450cafe72a9868a5a96c",
         image: casinha
     },
     
