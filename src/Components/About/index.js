@@ -14,9 +14,11 @@ export default function Sobre() {
       <div className="titulo-sobre">
         <h2 className="info-sobre">Sobre mim</h2>
         <p>
-          Oi, sou o Ector, desenvolvedor web. Gosto de esportes no geral, jogos
-          de computador e amo estar na natureza. Procuro inspiração para inovar
-          em tudo que faço.
+          Com uma paixão por tecnologia e um compromisso com a excelência, sou
+          um Desenvolvedor Frontend com 2 anos de experiência, especializado em
+          JavaScript, TypeScript, ReactJS e NextJS. Minha experiência abrange
+          uma variedade de competências, incluindo HTML, CSS, Sass, NodeJs, e
+          muito mais.
         </p>
         <BsDashLg className="traco" size={50} />
       </div>
@@ -25,17 +27,22 @@ export default function Sobre() {
         <img src={foto} alt="foto" />
 
         <div className="sobre-info">
-          <h2 className="subinfo-sobre">Oi, povo!</h2>
-          <p className="texto">
-            Esse projeto consiste na junção do conhecimento adquirito a cerca de
-            8 meses. Através desse projeto, consegui desenvolver as habilidades
-            técnicas que são utilizadas no mercado de trabalho.
-          </p>
-          <p className="texto">
-            Neste portifólio contém tecnologias e habilidades como ReactJs com o
-            uso de algumas bibliotecas como Material UI, AOS - Animate on Scroll
-            Library, Back to top e Sass na estilização.
-          </p>
+          <h2 className="subinfo-sobre">Expertise</h2>
+          <ul className="texto">
+            <li>EF Level 12 CEFR B1 - English Live</li>
+            <li>Front End Specialist - Digital Hous</li>
+            <li>Professional Developer - Digital House</li>
+            <li>Spread Full Stack Developer - DIO</li>
+            <li>Cibersecurity Essentials - CISCO</li>
+            <li>Scrum Foundation Professional Certificate - Certiprof</li>
+          </ul>
+          <br></br>
+          <h2 className="subinfo-sobre">Educação</h2>
+          <ul className="texto">
+            <li>HACKONE - Pós Graduação em redes e cibersegurança</li>
+            <li>DIGITAL HOUSE - Certified Tech Develope</li>
+            <li>ESTÁCIO - Análise e Desenvolvimento de Sistemas</li>
+          </ul>
         </div>
       </div>
       <BackToTop
@@ -57,8 +64,8 @@ export default function Sobre() {
           </div>
 
           <div className="contatos">
-            <h4 className="contato contato2">Fone:</h4>
-            <span>(81) 99861-3646</span>
+            <h4 className="contato contato2">Github:</h4>
+            <span>Github/EctorCunha</span>
           </div>
         </div>
 
@@ -70,14 +77,14 @@ export default function Sobre() {
 
           <div className="contatos ">
             <h4 className="contato contato2">Linkedin:</h4>
-            <span>Linkedin/EctorCunha</span>
+            <span>Linkedin/ectorcunha</span>
           </div>
         </div>
       </div>
 
       <hr></hr>
 
-      <p className="copy">© Copyright 2022 | Ector Cunha</p>
+      <p className="copy">© Copyright 2023 | Ector Cunha</p>
     </section>
   );
 }

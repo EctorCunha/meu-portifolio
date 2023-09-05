@@ -27,6 +27,18 @@
             color: var(--secundaria);
         }
 
+        .linkGithub{
+            text-decoration: none;
+            color: var(--terciaria);
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            transition: 0.3s;
+
+            &:hover{
+                color: var(--secundaria);
+            }
+        }
+
         .traco{
             color: var(--secundaria);
         }
@@ -42,7 +54,17 @@
             color: var(--terciaria);
         }
 
-        
+        .linkRepositorio {
+            text-decoration: none;
+            color: var(--terciaria);
+            font-size: 1rem;
+            margin-bottom: 15px;
+            transition: 0.3s;
+
+            &:hover{
+                color: var(--secundaria);
+            }
+        }
 
         .card{
             width: 250px;
