@@ -101,10 +101,12 @@ export default function Projetos() {
                   <p>{descricao}</p>
                 </li>
               </a>
-                <a href={repo} className="linkRepositorio">Repositório</a>
+                <a href={repo} className="linkRepositorio" target="_blank"
+                rel="noreferrer">Repositório</a>
                 <br></br>
                 {
-                  presentation ? (<><a  href={presentation} className="linkRepositorio">Apresentação do projeto</a><br/></>) : null
+                  presentation ? (<><a  href={presentation} className="linkRepositorio" target="_blank"
+                  rel="noreferrer">Apresentação do projeto</a><br/></>) : null
                 }
                 <br></br>
             </div>
