@@ -88,10 +88,10 @@ export default function Projetos() {
 
       <div className="cards">
         <ul>
-          {data.map(({ image, projeto, descricao, link, repo, presentation }) => (
-            <div>
+          {data.map(({ id, image, projeto, descricao, link, repo, presentation }) => (
+            <div key={id}>
               <a
-                /* key={data.id} */ href={link}
+                href={link}
                 target="_blank"
                 rel="noreferrer"
               >
